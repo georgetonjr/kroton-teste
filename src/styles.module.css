@@ -79,7 +79,6 @@ body {
 /*------------------------*/
 
 .titulo3 {
-  color: #005ea4;
   display: inline;
   background-color: #fff;
 }
@@ -167,6 +166,8 @@ li {
 
   .titulo3 {
     margin-top: 68%;
+    background-color: #fff;
+    position: relative;
   }
 
   .courses {
@@ -178,8 +179,12 @@ li {
 
   .input {
     height: 27px;
-    width: 80%;
+    width: 100%;
   }
+  .square {
+    margin-left: 20%;
+  }
+
   .title4txt {
     width: 45%;
     margin: 0 auto;

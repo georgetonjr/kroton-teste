@@ -80,6 +80,7 @@ function App() {
             <p>Pergunta 3?</p>
             <Select className={classes.input} options={options} />
           </div>
+
           <div className={classes.question}>
             <img
               className={classes.square}
