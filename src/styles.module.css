@@ -1,0 +1,56 @@
+.header {
+  position: absolute;
+  width: 100%;
+  height: 11%;
+  left: 0px;
+  top: 0px;
+  background-color: lawngreen;
+}
+
+.label {
+  justify-content: right;
+  float: right;
+  margin: auto;
+}
+
+.labelImg {
+  height: 25px;
+  width: 25px;
+}
+
+.labeltxt {
+  font-size: 65%;
+}
+
+.container {
+  margin-top: 5.4%;
+}
+
+.bloco1 {
+  color: #005ea4;
+  background-color: khaki;
+  width: 49%;
+  display: inline-block;
+}
+
+.bloco2 {
+  color: #005ea4;
+  background-color: khaki;
+  width: 49%;
+  float: right;
+  display: inline-block;
+}
+
+.button {
+  background-color: #0067f6;
+  color: #f1f1f1;
+  width: 200px;
+  height: 30px;
+  border-radius: 7%;
+  float: right;
+}
+
+.blocoImg {
+  width: 50px;
+  height: 50px;
+}

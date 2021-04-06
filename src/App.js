@@ -1,24 +1,36 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import classes from './styles.module.css';
 
-function App() {
+function App(){
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <>
+  <header className={classes.header}>
+    <div className={classes.label}>
+    <img className={classes.labelImg} src="https://www.flaticon.com/svg/vstatic/svg/733/733585.svg?token=exp=1617684219~hmac=c94f476e43314bdb79d87c782eed1cc8" alt="Fale conosco"/>
+    <a href="/" className={classes.labeltxt}>Fale conosco</a>
     </div>
+  </header>
+
+  <main>
+    <div className={classes.container}>
+      <div className={classes.bloco1}>
+        <img className={classes.blocoImg} src="./img/img1.png" alt=""/>
+
+        <h3>Titulo 1</h3>
+        <p> content content content content content content content content</p>
+        <button className={classes.button}> Botão para detalhes...</button>
+      </div>
+
+      <div className={classes.bloco2}>
+        <img className={classes.blocoImg} src="./img/img2.png" alt=""/>
+
+        <h3>Titulo 1</h3>
+        <p> content content content content content content content content</p>
+        <button className={classes.button}> Botão para detalhes...</button>
+      </div>
+    </div>
+  </main>
+  </>
   );
 }
 
