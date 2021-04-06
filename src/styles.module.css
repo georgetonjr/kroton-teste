@@ -27,18 +27,21 @@
 }
 
 .bloco1 {
-  color: #005ea4;
-  background-color: khaki;
-  width: 49%;
+  width: 40%;
   display: inline-block;
 }
 
 .bloco2 {
-  color: #005ea4;
-  background-color: khaki;
-  width: 49%;
+  width: 40%;
   float: right;
   display: inline-block;
+}
+
+.blocoTitle {
+  color: #005ea4;
+  margin-left: 20%;
+  font-size: 24px;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .button {
@@ -46,11 +49,36 @@
   color: #f1f1f1;
   width: 200px;
   height: 30px;
-  border-radius: 7%;
+  border-radius: 4px;
   float: right;
+  border: none;
 }
 
 .blocoImg {
-  width: 50px;
-  height: 50px;
+  width: 15%;
+  height: 15%;
+  margin-left: 3%;
+}
+
+.content {
+  float: right;
+  display: flex;
+}
+
+/*------------------------*/
+
+.titulo3 {
+  color: #005ea4;
+}
+
+.title {
+  color: #005ea4;
+}
+
+.input {
+  height: 27px;
+  width: 20%;
+}
+
+.question {
 }
