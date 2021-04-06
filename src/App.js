@@ -10,7 +10,7 @@ function App() {
         <div className={classes.label}>
           <img
             className={classes.labelImg}
-            src="https://cdn.icon-icons.com/icons2/99/PNG/512/whatsapp_socialnetwork_17360.png"
+            src="https://github.com/georgetonjr/kroton-teste/blob/master/src/img/wps.png?raw=true"
             alt="Fale conosco"
           />
           <a href="/" className={classes.labeltxt}>
